@@ -15,7 +15,8 @@ body {
   /* border: 2px dashed pink; */
   /* background-color:rgba(144, 238, 144,.5); */
   /* background-color: rgba(0,0,0,.5); */
-  background: linear-gradient(white, black) no-repeat;
+  background-image: linear-gradient(rgba(144, 238, 144,.5), rgb(0,0,0,0.5));
+
 
 }
 
@@ -42,20 +43,11 @@ font-size: 18px;
 }
 
 p.text{
-  /* text-align: center; */
-  /* position: absolute;
-  top: 50%;
-  left: 50%; */
-  /* position: relative; */
+
   margin-left: auto;
    margin-right: auto;
    width:50%;
-   /* display: flex; */
-    /* display: block; */
-  /* -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); */
-   /* text-align: center; */
+
 
 }
 nav ul {
@@ -108,15 +100,15 @@ text-indent: 60px;
    justify-content:  center;
   align-items: center;
      flex-direction: column;
-  background-color: white;
-  margin: 10px ;
+  /* background-color: white; */
+  margin: auto ;
 /* margin:auto; */
   text-align: center;
     /* align-content: center; */
   line-height: 30px;
  padding: 30px;
 /* border: 2px dashed pink; */
-
+width: 80%;
 
 }
 a.lightbox img {
